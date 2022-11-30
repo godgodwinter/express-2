@@ -1,0 +1,27 @@
+{
+  "name": "express-2",
+  "version": "1.0.0",
+  "description": "express,backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "babeng",
+    "godgodwinter",
+    "express",
+    "js"
+  ],
+  "author": "babeng",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.26.0",
+    "sqlite3": "^5.1.2"
+  }
+}

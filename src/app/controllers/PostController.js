@@ -3,6 +3,7 @@ export const getUsers = async (req, res) => {
   try {
     const response = await getUsersService();
     // const response = "tes";
+    // console.log(response[0].id);
     let result = {
       success: true,
       data: response,
